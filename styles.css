@@ -1,0 +1,207 @@
+body {
+  background-color: #EEEEEE;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.main {
+  background-color: white;
+  position: relative;
+ max-width: 90%;
+ min-height: 200%;
+ max-height: 200%;
+ overflow: hidden;
+ margin-left: auto;
+margin-right: auto;
+margin-top: -10px;
+}
+
+
+.margin-left {
+  margin-left: 30px
+}
+
+.logo {
+  margin-top: 50px;
+}
+
+.menu {
+  margin-left: 200px;
+  width:800px
+}
+
+.bluepic {
+  margin-top: 60px;
+}
+
+.europartner {
+  margin-left: 120px;
+}
+
+.text{
+  font-size: 1.3rem
+}
+
+.margin-right{
+  margin-right: 30px
+}
+
+.textcols-item {
+  display: inline-block;
+  width: 30%;
+}
+
+.price {
+    text-align: right;
+  font-size: 3rem;
+  color: #999999;
+}
+
+.position {
+  position: relative;
+  top: -100px;
+}
+
+.blockrext {
+  margin-left: auto;
+   margin-right: auto;
+   width: 100%
+}
+
+.btn {
+
+   display: inline-block;
+    background: #ED5C03;
+    color: #fff;
+    padding: 0.5rem 2.5rem;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.par {
+  margin-top: 50px;
+  font-size: 0.9rem
+}
+
+.par2 {
+  margin-top: 50px;
+  font-size: 1.3rem
+}
+
+.blue {
+  position: relative;
+  background-color: #1E45A1;
+  min-height: 200%;
+  max-height: 200%;
+  overflow: hidden;
+}
+
+.textcols-2item {
+
+  color: white
+}
+
+.pictures {
+  display: flex;
+  flex-direction: column;
+}
+
+.picturesText {
+  display: inline-block;
+  flex-direction: row;
+  position: relative;
+}
+
+.bottomText {
+  position:absolute;
+  width: 45%;
+  margin-top: -50px;
+  margin-left: 50px
+}
+
+.bottomTextTwo{
+  margin-top: -65px;
+  margin-left: 712px;
+  width: 35%;
+}
+
+.vk {
+  margin-top: 40px
+}
+
+.youtube{
+
+  margin-top: -100px;
+  margin-left: 660px
+}
+
+@media (max-width: 991px) {
+  h2{
+    font-size: 2rem !important;
+    margin-left: 30px !important;
+  }
+
+  h3{
+    font-size: 1.5rem;
+    padding-bottom: 30px
+  }
+
+  .logo {
+    width: 150px;
+    margin-top: -5px;
+    padding-bottom: 50px
+
+
+  }
+
+  .menu {
+    margin-top: 70px;
+    width: 95%;
+    position: absolute;
+    right: 30px;
+
+  }
+
+  .bluepic{
+    width: 100%;
+    top: 50px
+  }
+
+  .europartner{
+    width: 70%;
+  }
+
+  .text{
+    font-size: 2rem
+  }
+
+  .blockrext {
+    font-size: 1.3rem
+  }
+
+  .btn{
+    font-size: 1.7rem
+  }
+
+  .par{
+    font-size: 1.2rem
+      }
+
+      .par2{
+        font-size: 1.5rem
+          }
+
+.bottomText{
+  width:85%
+}
+
+.youtube{
+  margin-top: 50px;
+  margin-left: 30px
+}
+
+.bottomTextTwo{
+  width:85%;
+  margin-left: 80px
+}
+
+}
